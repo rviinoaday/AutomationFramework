@@ -1,0 +1,225 @@
+if user seen some where double quotes - "<anything>"--- String
+
+
+if string is coming first and after that  plus symbol is there next part automatically convert into the string
+
+
+if user seen some where void symbol -- that is called a method
+
+
+What is class ?
+
+class is a combination of methods/variable , object and constrcutor.
+
+if any thing is missing we can not execute our pgm
+
+Note : constructor name and class name should be same  
+
+
+what is object ?
+
+Object is a replica of class or we can say blue print of class
+
+WebDriver driver = new ChromeDriver() // RTP
+
+
+Constrcutor /MOL/OR /Inheritance / class and object 
+
+Date: 29/09
+//Assiangment - Create 4 class and each class should contain 3 methods all methods should call inside main method . 
+
+>> Class 4 Cretaed A,B,C,D
+>> Added method 
+>> Created a object and invoke in main Method 
+
+
+
+Inheritance :- Aquaring the properties from the above class - 
+that is called a inheritance and we can achive with the help of extends keyword in java
+
+What is Multi level inheritance
+
+>>Step by step inheritance or we can say generation by generation transformation is called a Multi level inheritance
+
+
+what is multiple inheritance
+
+If one class want to inherit more than one class at a time 
+
+
+can we achieve multiple inheritance in java
+
+No , we cant achieve at class level but we can achieve at interface level
+
+what is the major difference Multiple and multi level inheirtance
+
+
+what is single inheritance and  inheritance both is same - child parent relation with extends keyword 
+
+what is Many to one inheritance
+
+What is one to Many Inheritance -- Multiple Inheritance -  Interface level 
+
+
+Assignment :- 
+
+IS-A Relation  >> what kind of inheritance >> this is single Inheritance 
+
+Has-A realtion  >> What is 
+
+
+Create a program for currency  and output should be whenever you are creating any object of any country that currency 
+should printed
+
+Create one pgm for Many to one relation 
+
+
+Method over riding - Same methods but in differet class and implementation should be different
+that is called method overriding and we can achieve with the help of extends keyword in java
+
+
+Method Overloading :-  We have to apply same method but in same class but signature paramater/Data type shoudl be
+differ
+
+
+Data Type - 
+
+
+by default any whole number is int
+
+int -- whole Number ----- Middle range
+long--- whole number -- higher range
+short-- whole number-- less than integer and higher than byte
+byte-- whole number-- less range
+
+
+by default any decimal value is double
+
+double--- decimal value --- high range
+float -- decimal value--- Less range
+
+
+char-- 'a' 'b'
+boolean -- true and false
+
+String - String is not a data type - it is a class but we will use like a data type - 
+why? will discuss in String topic --- " "
+
+
+Assingment : Write a programme to run the advance overloading with below data type. 
+
+short-- whole number-- less than integer and higher than byte
+byte-- whole number-- less range
+
+short data type description:The short data type in Java is a 16-bit signed integer that can store values from -32,768 to 32,767. 
+It’s often used when you need a smaller range of integer values to save memory.
+
+
+int a= 'z';
+
+
+******Framework*****
+
+Page Object Model - can we design in multiple ways
+
+Code always put into the git repo
+
+jenkins - From The Git
+
+
+Jenkins --- Pom.xml(Maven)-----TestNg.xml--- Scripting -- Main Functionality ---- We will declare Page Object Model --- fetching data from Excel /Db/Json
+
+
+
+Where you store al
+Key Feature
+
+- developed Language of application
+- Environment Support
+- Easy to Use for team and they can able to write Script
+- Complexity of The pgm
+- Performance of the Scripting
+- Integrated with CICD and Pipeline
+- Logging
+- Reporting
+- Intergrated to Management Tool
+
+
+
+
+Find Duplicate character in a String --- with Collection or With out Collection -- Map     "Testing Automation
+
+remove duplicate character in a String ---  Set
+
+Print Reverse String "Testing"  ---CharAt(i)
+
+Rverese Two Number without third variable --- 10  20 --- 20 10
+
+Write a pgm for Pallandrom ---- MADAM--- MADAM
+
+
+
+
+BDD - English Language 
+
+
+Feature
+
+Scenario
+
+Given    
+When 
+Then 
+And
+
+cucumber framework --- Step Defination
+
+before
+after
+
+Constructor :- 
+
+Constructor name and class name should be same
+
+if user is not declaring any constructor - jvm will declare default and blank constructor
+
+if user is declaring  any constructor - jvm will not declare any blank and default constructor
+
+Constructor doesn't contain any return type - like void
+
+
+Polymorphism :- Many form 
+
+same object behaving different different instance through out the execution of the pgm - that is called a Polymorphism
+
+Run Time polymorphism  -- Method Over riding , inheritance and upcasting
+
+Trying to create a object of Parent class and call child Constructor
+
+compile Time polymorphism --- Method Over loading
+
+Complie time  Polymorphism is a method overloading  means its compiling at the time of execution 
+
+Assignment - how we can say that method overloading is a part of compile time polymorphism
+
+
+RunTimePolymorpisam  assingment 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
