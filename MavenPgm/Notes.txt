@@ -1,0 +1,7 @@
+our code should be available on git repo
+
+
+jenkins ---- from the git
+
+
+jenkins --- Pom.xml --- Testng.xml ---- scripting -- Main functionlatiy - --- page object model
