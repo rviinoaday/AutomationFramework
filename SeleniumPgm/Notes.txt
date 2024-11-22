@@ -1,0 +1,65 @@
+in selenium we have two methods
+
+sendkeys()--- if we need to write something inside into the tetx box
+
+
+
+click()--- if we need to click on any link and button
+
+
+
+we can able to find the locators
+
+
+we have multiple locator in selenium
+
+
+id
+name
+
+
+xpath
+css
+classname
+linktext
+
+
+xpath :- 
+
+
+Purple color -tagname - 
+red color - Attribute
+blue color - Value
+Black color - Text
+
+
+1-   //tagname[@attribute= 'value']
+
+	//textarea[@title='Search']
+
+2   //tagname[text()='text value']
+
+//a[text()='About']
+
+3- (//a[text()='Customer Service'])[1]
+
+4 -  //a[text()='Today's Deals']
+
+contains
+
+//tagname[contains(text(),'search value')]
+
+//a[contains(text(),'Deals')]
+
+
+//Mouse hovering , drag and drop , double click , right click 
+
+
+
+https://demo.guru99.com/test/delete_customer.php
+
+
+https://www.guru99.com/live-selenium-project.html
+
+
+//div[@id='CardInstancepQVcz6NcVNAgraiVP_2Ufg']//a[@aria-label]
