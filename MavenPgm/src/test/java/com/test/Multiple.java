@@ -17,8 +17,9 @@ public class Multiple {
 
 	WebDriver driver;
 
-	@BeforeClass
+	@BeforeClass //Run before class
 	public void Initalization() {
+		
 		driver = new ChromeDriver();
 
 		driver.get("https://www.amazon.in");
@@ -59,7 +60,7 @@ public class Multiple {
 
 	}
 
-	@AfterClass
+	@AfterClass //Run after class
 	public void CleanUp() {
 		driver.quit();
 	}
