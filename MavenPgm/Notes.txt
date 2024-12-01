@@ -8,3 +8,11 @@ jenkins --- Pom.xml --- Testng.xml ---- scripting -- Main functionlatiy - --- pa
 
 
 sgdhsgfdsfgdsgfdjsgf
+
+
+
+git status
+git add "name of the file"
+git status 
+git commit -m  "Message"
+git push

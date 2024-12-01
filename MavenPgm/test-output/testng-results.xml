@@ -1,39 +1,88 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-11-15T20:33:37 GMT" name="Suite" finished-at="2024-11-15T20:34:29 GMT" duration-ms="52220">
+  <suite started-at="2024-11-28T20:50:46 GMT" name="Default suite" finished-at="2024-11-28T20:51:03 GMT" duration-ms="16892">
     <groups>
     </groups>
-    <test started-at="2024-11-15T20:33:37 GMT" name="Test" finished-at="2024-11-15T20:34:29 GMT" duration-ms="52220">
-      <class name="com.test.Multiple">
-        <test-method is-config="true" signature="Initalization()[pri:0, instance:com.test.Multiple@3fc2959f]" started-at="2024-11-15T20:34:14 GMT" name="Initalization" finished-at="2024-11-15T20:34:21 GMT" duration-ms="6825" status="PASS">
+    <test started-at="2024-11-28T20:50:46 GMT" name="Default test" finished-at="2024-11-28T20:51:03 GMT" duration-ms="16892">
+      <class name="com.test.DoubleclickAssingment">
+        <test-method is-config="true" signature="MouseAction()[pri:0, instance:com.test.DoubleclickAssingment@1573f9fc]" started-at="2024-11-28T20:50:46 GMT" name="MouseAction" finished-at="2024-11-28T20:50:54 GMT" duration-ms="8107" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Initalization -->
-        <test-method signature="DropDown()[pri:1, instance:com.test.Multiple@3fc2959f]" started-at="2024-11-15T20:34:21 GMT" name="DropDown" finished-at="2024-11-15T20:34:23 GMT" duration-ms="1920" status="PASS">
+        </test-method> <!-- MouseAction -->
+        <test-method signature="DoubleClick()[pri:1, instance:com.test.DoubleclickAssingment@1573f9fc]" started-at="2024-11-28T20:50:54 GMT" name="DoubleClick" finished-at="2024-11-28T20:50:59 GMT" duration-ms="5466" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- DropDown -->
-        <test-method signature="AdvanceDropDown()[pri:2, instance:com.test.Multiple@3fc2959f]" started-at="2024-11-15T20:34:23 GMT" name="AdvanceDropDown" finished-at="2024-11-15T20:34:28 GMT" duration-ms="5119" status="PASS">
+        </test-method> <!-- DoubleClick -->
+        <test-method signature="AlertText()[pri:2, instance:com.test.DoubleclickAssingment@1573f9fc]" started-at="2024-11-28T20:50:59 GMT" name="AlertText" finished-at="2024-11-28T20:51:02 GMT" duration-ms="3042" status="FAIL">
+          <exception class="org.openqa.selenium.UnhandledAlertException">
+            <message>
+              <![CDATA[unexpected alert open: {Alert text : clicked: copy}
+  (Session info: chrome=131.0.6778.86): clicked: copy
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [126a85c350fb4037bdb1d33e003f4d47, getTitle {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.86, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: C:\Users\shardul\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57012}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57012/devtoo..., se:cdpVersion: 131.0.6778.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 126a85c350fb4037bdb1d33e003f4d47]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : clicked: copy}
+  (Session info: chrome=131.0.6778.86): clicked: copy
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [126a85c350fb4037bdb1d33e003f4d47, getTitle {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.86, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: C:\Users\shardul\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57012}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57012/devtoo..., se:cdpVersion: 131.0.6778.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 126a85c350fb4037bdb1d33e003f4d47
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:136)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:618)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:622)
+at org.openqa.selenium.remote.RemoteWebDriver.getTitle(RemoteWebDriver.java:318)
+at com.test.DoubleclickAssingment.AlertText(DoubleclickAssingment.java:46)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.UnhandledAlertException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- AdvanceDropDown -->
-        <test-method is-config="true" signature="CleanUp()[pri:0, instance:com.test.Multiple@3fc2959f]" started-at="2024-11-15T20:34:28 GMT" name="CleanUp" finished-at="2024-11-15T20:34:29 GMT" duration-ms="849" status="PASS">
+        </test-method> <!-- AlertText -->
+        <test-method is-config="true" signature="CleanUp()[pri:0, instance:com.test.DoubleclickAssingment@1573f9fc]" started-at="2024-11-28T20:51:02 GMT" name="CleanUp" finished-at="2024-11-28T20:51:03 GMT" duration-ms="219" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CleanUp -->
-      </class> <!-- com.test.Multiple -->
-      <class name="com.test.StealElementexception">
-        <test-method signature="Fashion()[pri:1, instance:com.test.StealElementexception@65fb9ffc]" started-at="2024-11-15T20:33:37 GMT" name="Fashion" finished-at="2024-11-15T20:33:54 GMT" duration-ms="16929" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Fashion -->
-        <test-method signature="HomeEssential()[pri:2, instance:com.test.StealElementexception@65fb9ffc]" started-at="2024-11-15T20:33:54 GMT" name="HomeEssential" finished-at="2024-11-15T20:34:14 GMT" duration-ms="20480" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- HomeEssential -->
-      </class> <!-- com.test.StealElementexception -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+      </class> <!-- com.test.DoubleclickAssingment -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

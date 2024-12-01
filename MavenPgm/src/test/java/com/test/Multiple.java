@@ -61,7 +61,8 @@ public class Multiple {
 	}
 
 	@AfterClass //Run after class
-	public void CleanUp() {
+	public void CleanUp() 
+	{
 		driver.quit();
 	}
 
